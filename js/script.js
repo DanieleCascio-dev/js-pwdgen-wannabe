@@ -17,7 +17,7 @@ console.log(favColor, typeof favColor);
 //Logica del programma
 
 const password = `${username}${secondname}${favColor}21`;
-console.log(password);
+console.log(password, typeof password);
 
 //Output
 document.getElementById("password").innerHTML = password;
