@@ -18,3 +18,6 @@ console.log(favColor, typeof favColor);
 
 const password = `${username}${secondname}${favColor}21`;
 console.log(password);
+
+//Output
+document.getElementById("password").innerHTML = password;
