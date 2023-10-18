@@ -5,7 +5,7 @@ const username = prompt("Benvenuto utente! Qual'è il tuo nome?");
 console.log(username, typeof username);
 //Chiedo cognome
 const secondname = prompt(
-  "Ottimo! ora inserisci il tuo cognome per proseguire"
+  `Ottimo ${username}! ora inserisci il tuo cognome per proseguire`
 );
 console.log(secondname, typeof secondname);
 //Chiedo colore preferito
